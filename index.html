@@ -7,26 +7,62 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
-<body>
+<body class='body1'>
     <div></div>
     <h1 class= "heading1">JAVASCRIPT DRUM KIT</h1>
     
 
-    <h4 class= "heading2">USE KEYBOARD TO PLAY DRUM</h4>
-    <img class="drum" src="./drum.jpeg"">
+    <h2 class= "heading2">USE KEYBOARD TO PLAY DRUM</h2>
+    
 
-    <button class = "buttons"> A Clap</button>
-    <button class = "buttons"> S Hihat</button>
-    <button class = "buttons"> D Kick</button>
-    <button class = "buttons"> F Openhat</button>
-    <button class = "buttons"> G Boom</button>
-    <button class = "buttons"> H Ride</button>
-    <button class = "buttons"> J Snare</button>
-    <button class = "buttons"> K Tom</button>
-    <button class = "buttons"> L Tink</button>
+    <button class = "buttons" id="clap"> A Clap</button>
+    <button class = "buttons" id="hihat"> S Hihat</button>
+    <button class = "buttons" id="kick"> D Kick</button>
+    <button class = "buttons" id="openhat"> F Openhat</button>
+    <button class = "buttons" id="boom"> G Boom</button>
+    <button class = "buttons" id="ride"> H Ride</button>
+    <button class = "buttons" id="snare"> J Snare</button>
+    <button class = "buttons" id="tom"> K Tom</button>
+    <button class = "buttons" id="tink"> L Tink</button>
+
+    <div>
+
+<audio id = "key1">
+    <source src="./sounds/clap.wav"type="audio/wav">
+
+<audio id = "key2">
+    <source src="./sounds/hihat.wav"type="audio/wav">
+
+<audio id = "key3">   
+    <source src="./sounds/kick.wav" type="audio/wav">
+    
+ <audio id = "key4">
+   <source src="./sounds/openhat.wav" type="audio/wav">
+
+<audio id = "key5">
+        <source src="./sounds/boom.wav" type="audio/wav">    
+    
+ <audio id = "key6">
+   <source src="./sounds/ride.wav" type="audio/wav">
+   
+ <audio id = "key7">
+        <source src="./sounds/snare.wav" type="audio/wav">
+         
+  <audio id = "key8">
+        <source src="./sounds/tom.wav" type="audio/wav">
+
+     <audio id = "key9">   
+            <source src="./sounds/tink.wav" type="audio/wav">
+
+        
+
+    </div>
+   
+
+
 
 
     
-    <script>src='app.js'</script>
+    <script src='./app.js'></script>
 </body>
 </html>
